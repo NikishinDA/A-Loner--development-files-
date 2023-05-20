@@ -26,6 +26,6 @@ Preview:
 https://youtu.be/y7fndBivg0Y
 
 
-![image_005_0000](https://github.com/NikishinDA/A-Loner--development-files-/assets/60629320/6fbf8882-cfc4-43be-8d0b-776b7f562ae8)
-![image_002_0000](https://github.com/NikishinDA/A-Loner--development-files-/assets/60629320/e0fbb65f-bf1f-4568-b307-7319e2f0dd59)
-![image_003_0000](https://github.com/NikishinDA/A-Loner--development-files-/assets/60629320/17e98007-2d4d-4ae1-89ce-1457bb188847)
+![image_005_0000](Preview/image_005_0000.jpg)
+![image_002_0000](Preview/image_002_0000.jpg)
+![image_003_0000](Preview/image_003_0000.jpg)
