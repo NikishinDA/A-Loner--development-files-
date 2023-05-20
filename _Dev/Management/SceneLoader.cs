@@ -1,0 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class SceneLoader
+{
+    public static readonly int StartLevel = 0;
+    public static void ReloadLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public static void LoadNextLevel()
+    {
+        int level = PlayerPrefs.GetInt(PlayerPrefsStrings.Level, StartLevel);
+        PlayerPrefs.SetInt(PlayerPrefsStrings.Level, level + 1);
+        PlayerPrefs.Save();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+}
